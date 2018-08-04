@@ -7,7 +7,7 @@ public class UnsharedData {
 	 * If PE have this id and PC don't, replace with air(id=0)
 	 */
 	public static byte[] blockFilter(byte id, byte data){
-		switch (id) {
+		switch (-1) { //i wanna use it for pocketmine
 		case 43:
 			switch (data) {
 			case 6:  //Nether Brick Slab
